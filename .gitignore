@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+
+# package managers
+*/node_modules
+*/vendor
