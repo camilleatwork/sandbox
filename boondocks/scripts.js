@@ -10,7 +10,7 @@ app.appendChild(container);
 
 var request = new XMLHttpRequest();
 
-request.open('GET', 'http://api.tvmaze.com/shows/912/episodes', true);
+request.open('GET', 'https://api.tvmaze.com/shows/912/episodes', true);
 
 request.onload = function () {
     var data = JSON.parse(this.response);
